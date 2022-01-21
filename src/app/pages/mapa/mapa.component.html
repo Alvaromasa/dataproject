@@ -1,0 +1,17 @@
+
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" [mapTypeId]="mapTypeId" [fitBounds]="true">
+    <agm-marker [latitude]="lat" [longitude]="lng" *ngIf="located">
+        <agm-info-window>
+            Mi posición 
+        </agm-info-window>
+    </agm-marker>
+    <agm-marker *ngFor="let pais of paises" [latitude]="pais.latlng[0]" [longitude]="pais.latlng[1]" [agmFitBounds]="true">
+        <agm-info-window>
+            <h3>{{pais.name}}</h3>
+        </agm-info-window>
+    </agm-marker>
+</agm-map>
+<button (click)="getCurrentPosition()" class="button">Get Current Position</button>
+
+
+

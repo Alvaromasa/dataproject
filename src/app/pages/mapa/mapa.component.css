@@ -1,0 +1,13 @@
+agm-map{
+    position: absolute;
+    left: 120px;
+   top: 100px;
+    width: 1200px;
+    height: 680px;
+}
+.button{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+
+}
