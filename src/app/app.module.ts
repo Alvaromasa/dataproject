@@ -10,6 +10,8 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import {AgmCoreModule} from '@agm/core';
 import { MapaComponent } from './pages/mapa/mapa.component';
 import {HttpClientModule} from '@angular/common/http';
+import { ListadoComponent } from './pages/listado/listado.component';
+import { DetallesComponent } from './pages/detalles/detalles.component';
 
 
 
@@ -21,13 +23,15 @@ import {HttpClientModule} from '@angular/common/http';
     HomeComponent,
     TiendaComponent,
     ContactoComponent,
-    MapaComponent
+    MapaComponent,
+    ListadoComponent,
+    DetallesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AgmCoreModule.forRoot({
-      apiKey: 'x'
+      apiKey: 'AIzaSyBKNUCN_lMb2fiX_e9R8t11vE0ofmD2_TU'
     }),
     HttpClientModule
   ],

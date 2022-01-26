@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,300;1,100&family=Poppins:wght@200;400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    
+    margin-left: 550px;
+    color: #4FBDBA;
+}
+.perfiljugador{
+    height: 150px;
+    padding: 20px;
+}
+.defecto{
+    justify-content: space-around;
+    font-size: 20px;
+    color: #4FBDBA;
+    
+}
+
+th{
+    color: #4FBDBA;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+td{
+    color: #4FBDBA;
+    padding: 20px;
+
+
+}
