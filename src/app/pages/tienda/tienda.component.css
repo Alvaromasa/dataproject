@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 h2{
-    color: #4FBDBA;  
+    color: #072227;  
     margin-left: 50px;
 }
 .container{
@@ -16,6 +16,7 @@ margin-top: 50px;
 .card {
     padding: 20px;
     margin: 50px;
+    
 }
 
 .card img {

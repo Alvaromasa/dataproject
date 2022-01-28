@@ -18,6 +18,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	padding: 20px 100px;
+	border: #4FBDBA;
 }
 
 .container:after{
@@ -39,11 +40,12 @@ body{
 	align-items: center;
 	text-align: center;
 	background-color: #fff;
-	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+	box-shadow: 0px 0px 19px 5px #4FBDBA;
 }
 img{
     width: 430px;
     height: 535px;
+	
 }
 
 .left{
@@ -71,7 +73,7 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: #4FBDBA;
 }
 
 .field{
@@ -96,7 +98,7 @@ textarea{
 .btn{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #2ecc71;
+	background-color: #4FBDBA;
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
@@ -106,11 +108,11 @@ textarea{
 }
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: #4FBDBA;
 }
 
 .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
+    border: 2px solid #4FBDBA;
     background-color: #fff;
 }
 
