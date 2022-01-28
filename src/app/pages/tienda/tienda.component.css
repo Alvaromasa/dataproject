@@ -12,6 +12,10 @@ h2{
 margin-top: 50px;
 
 }
+button{
+    background-color: #35858B;
+    border: #35858B;
+}
 
 .card {
     padding: 20px;
