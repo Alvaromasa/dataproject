@@ -1,36 +1,43 @@
-
+<table class="table">
 <thead>
    <tr>
-    <th>Perfil</th>
-    <th>Nombre</th>
-    <th>Procedencia</th>
-    <th>Equipo</th>
-    <th>Posición</th>
-    <th>Años NBA</th>
-    <th>Salario</th>
-    
+    <th scope="col">id</th>
+    <th scope="col">Nombre</th>
+    <th scope="col">Apellido</th>
+    <th scope="col">Género</th>
+    <th scope="col">Edad</th>
+    <th scope="col">Transporte</th>
+    <th scope="col">Codigo postal</th>
+    <th scope="col">Amigos</th>
+    <th scope="col">Distancia</th>
+
+
    </tr> 
 </thead>
-<hr>
+
 <tbody>
-   <tr>
+   <tr *ngFor="let cliente of clientes">
     
-   
+      <!-- url: https://apiangular-7804c.web.app/ -->
+
+   <td class="defecto"> {{cliente.id_user}}</td>
+    <td class="defecto">{{cliente.name_user}}</td>
+    <td class="defecto">{{cliente.last_name_user}}</td>
+    <td class="defecto">{{cliente.gender_user}}</td>
+    <td class="defecto">{{cliente.age_user}}</td>
+    <td class="defecto"> {{cliente.transport_user}}</td>
+    <td class="defecto"> {{cliente.cp_user}}</td>
+    <td class="defecto"> {{cliente.name_friend}}</td>
+    <td class="defecto"> {{cliente.distance}}</td>
 
 
   
-    <td class="defecto">Jaime</td>
-    <td class="defecto">h</td>
-    <td class="defecto">hf</td>
-    <td class="defecto">verv</td>
-    <td class="defecto">wvvwv</td>
-    <td class="defecto">wfuwbvwhue </td>
-    <td class="defecto">cbwuvbevq3uhrbvuy3 </td>
 
-
-  
-<hr>
 </tr>
+
 </tbody>
+</table>
+
+
 
 <app-footer></app-footer>

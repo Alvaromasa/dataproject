@@ -15,6 +15,7 @@ export class MapaComponent implements OnInit {
   located:boolean;
 
   paises:any[];
+  clientes;
 
   constructor(private service : ServiciosService) {
     this.lat =40;
@@ -26,7 +27,12 @@ export class MapaComponent implements OnInit {
 
   ngOnInit(): void {
     this.service.getall()
-    .then(paises => this.paises= paises)
+    .then(paises => {console.log(paises);
+      this.paises= paises});
+    
+    this.service.getallclients().subscribe( datos => { console.log(datos);
+      this.clientes = datos;});
+
   }
 
 getCurrentPosition(){

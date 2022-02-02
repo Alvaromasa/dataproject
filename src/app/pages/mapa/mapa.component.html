@@ -5,9 +5,10 @@
             Mi posición 
         </agm-info-window>
     </agm-marker>
-    <agm-marker *ngFor="let pais of paises" [latitude]="pais.latlng[0]" [longitude]="pais.latlng[1]" [agmFitBounds]="true">
+    <agm-marker *ngFor="let cliente of clientes" [latitude]="cliente.lat_user" [longitude]="cliente.lon_user" [agmFitBounds]="true">
         <agm-info-window>
-            <h3>{{pais.name}}</h3>
+            <h3 style="font-size: 10px;">{{cliente.name_user}}</h3>
+            <h3 style="font-size: 10px;">{{cliente.last_name_user}}</h3>
         </agm-info-window>
     </agm-marker>
 </agm-map>

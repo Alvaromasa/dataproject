@@ -6,15 +6,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-h1{
+hr{
     
-    margin-left: 550px;
-    color: #4FBDBA;
+   width: 100%;
 }
-.perfiljugador{
-    height: 150px;
-    padding: 20px;
-}
+
 .defecto{
     justify-content: space-around;
     font-size: 20px;
@@ -24,8 +20,8 @@ h1{
 
 th{
     color: #4FBDBA;
-    padding: 20px;
-    font-size: 20px;
+    padding: 25px;
+    font-size: 23px;
     
 }
 td{
@@ -33,4 +29,7 @@ td{
     padding: 20px;
 
 
+}
+button{
+    background-color: #4FBDBA;
 }
