@@ -1,27 +1,19 @@
-# Dataproject
+# Welcome to DataGenerator!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+Para este primer Data Project, yo seré vuestro generador de datos de personas para ambos casos de uso:
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Modo de empleo
 
-## Code scaffolding
+1) Clonaros el repo
+2) Instalar las librerias usando el pip:<br>
+<code>pip install -r requirements.txt</code>
+3) Ejecutar el código<br>
+<code>python datagenerator.py</code>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Modificación
 
-## Build
+El script datagenerator debe ser modificado para encajar en vuestra arquitectura de datos. Es decir, enviar los datos a donde los recibirá vuestro sistema (Cola de mensajes, Ingestion, ETL, BBDD...).
+Para ello solo podéis modificar la parte remarcada a continuación:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![coding image](code.png)
